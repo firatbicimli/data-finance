@@ -6,14 +6,15 @@ const Analytics = () => {
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <img className='w-[500px] mx-auto my-4' src={Laptop} alt="" />
-            <div>
-                <p>DATA ANALYTICS DASHBOARD</p>
-                <h1>Manage Data Analytics Centerally</h1>
+            <div className='flex flex-col justify-center'>
+                <p className='text-[#00df9a] font-bold'>DATA ANALYTICS DASHBOARD</p>
+                <h1 className='md:text-4l sm:text-3l text-2xl font-bold py-2'>Manage Data Analytics Centerally</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Optio, quis suscipit aliquam doloribus commodi nobis, 
                 cupiditate adipisci, veniam neque voluptatibus dolore 
                 natus possimus qui asperiores. Ea deserunt a et ipsa?
                 </p>
+                <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
             </div>
         </div>
     </div>
